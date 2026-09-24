@@ -7,6 +7,8 @@ build/
 # Gradle Wrapper must be versioned
 !gradle/wrapper/gradle-wrapper.jar
 
+# PowerShell generated files
+Microsoft/
 
 # ============================================================
 # Java
