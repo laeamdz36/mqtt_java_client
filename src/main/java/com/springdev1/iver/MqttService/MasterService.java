@@ -28,8 +28,8 @@ public class MasterService {
                 .serverHost("192.168.10.105")
                 .serverPort(1883)
                 .simpleAuth()
-                .username("mqtt_usr")
-                .password("luismdz366".getBytes(StandardCharsets.UTF_8))
+                .username("user")
+                .password("pass".getBytes(StandardCharsets.UTF_8))
                 .applySimpleAuth()
                 .buildAsync();
         client.connect();
